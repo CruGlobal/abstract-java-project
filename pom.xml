@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.ccci</groupId>
+  <artifactId>abstract-java-project</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <parent>
+    <groupId>org.ccci</groupId>
+    <artifactId>ccci-root</artifactId>
+    <version>1</version>
+    <relativePath>../ccci-root/pom.xml</relativePath>
+  </parent>
+
+  <scm>
+    <developerConnection>scm:svn:http://arkham.ccci.org/svn/java/trunk/commons/super-poms/abstract-java-project</developerConnection>
+  </scm>
+
+  <properties>
+    <java.source.version>1.6</java.source.version>
+    <clover.version>2.6.0</clover.version>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.3.2</version>
+          <configuration>
+            <source>${java.source.version}</source>
+            <target>${java.source.version}</target>
+            <showWarnings>true</showWarnings>
+            <showDeprecation>true</showDeprecation>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>com.atlassian.maven.plugins</groupId>
+          <artifactId>maven-clover2-plugin</artifactId>
+          <version>${clover.version}</version>
+          <configuration>
+            <license>
+              <![CDATA[
+                OQMqSgqoojKAgEXeriuMRBgNRPvVctMXkMfdKmCXPPnxmt
+                mi2Kmhc<0mscGaN8wuCEdCpS2KZ9u0FyK6JhixyJXw9lI9 
+                QQQntxRPRQPMRopQPqNxtqpNPmOQnQpmMPXXsVsWvUpvwu 
+                tsUWMWSUmVUxxsxuuMnmomUUnooqsumqmmmmmUUnooqsum
+                qmmmmmUU3XjmrpW3orpXabWcloW3eofpqUUn
+              ]]>
+            </license>
+          </configuration>
+        </plugin>
+
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>

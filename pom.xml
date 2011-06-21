@@ -3,7 +3,7 @@
 
   <groupId>org.ccci</groupId>
   <artifactId>abstract-java-project</artifactId>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <parent>
@@ -14,7 +14,7 @@
   </parent>
 
   <scm>
-    <developerConnection>scm:svn:http://arkham.ccci.org/svn/java/tags/commons/super-poms/abstract-java-project/abstract-java-project-2</developerConnection>
+    <developerConnection>scm:svn:http://arkham.ccci.org/svn/java/trunk/commons/super-poms/abstract-java-project</developerConnection>
   </scm>
 
   <properties>
@@ -119,8 +119,7 @@
             <license>
               <![CDATA[
                 OQMqSgqoojKAgEXeriuMRBgNRPvVctMXkMfdKmCXPPnxmt
-                mi2Kmhc<0mscGaN8wuCEdCpS2KZ9u0FyK6JhixyJXw9lI9 QQQntxRPRQPMRopQPqNxtqpNPmOQnQpmMPXXsVsWvUpvwu 
-                tsUWMWSUmVUxxsxuuMnmomUUnooqsumqmmmmmUUnooqsum
+                mi2Kmhc<0mscGaN8wuCEdCpS2KZ9u0FyK6JhixyJXw9lI9 QQQntxRPRQPMRopQPqNxtqpNPmOQnQpmMPXXsVsWvUpvwu tsUWMWSUmVUxxsxuuMnmomUUnooqsumqmmmmmUUnooqsum
                 qmmmmmUU3XjmrpW3orpXabWcloW3eofpqUUn
               ]]>
             </license>

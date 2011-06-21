@@ -181,6 +181,8 @@
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <tagBase>${svn.repository.url.base}/${svn.repository.name}/tags/${svn.repository.path}/${project.artifactId}</tagBase>
+          <username>${svn.username}</username>
+          <password>${svn.password}</password>
         </configuration>
       </plugin>
     </plugins>

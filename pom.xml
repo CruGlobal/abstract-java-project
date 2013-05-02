@@ -112,24 +112,6 @@
         </plugin>
 
         <plugin>
-          <groupId>com.atlassian.maven.plugins</groupId>
-          <artifactId>maven-clover2-plugin</artifactId>
-          <version>${clover.version}</version>
-          <configuration>
-            <license>
-              <![CDATA[
-                OQMqSgqoojKAgEXeriuMRBgNRPvVctMXkMfdKmCXPPnxmt
-                mi2Kmhc<0mscGaN8wuCEdCpS2KZ9u0FyK6JhixyJXw9lI9
-                QQQntxRPRQPMRopQPqNxtqpNPmOQnQpmMPXXsVsWvUpvwu
-                tsUWMWSUmVUxxsxuuMnmomUUnooqsumqmmmmmUUnooqsum
-                qmmmmmUU3XjmrpW3orpXabWcloW3eofpqUUn
-              ]]>
-            </license>
-          </configuration>
-        </plugin>
-
-
-        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
           <configuration>
